@@ -62,7 +62,7 @@ void console_clear() {
     SetConsoleCursorPosition(console, topLeft);
 }
 void rename_window(LPCSTR input) {
-    if (input = "") return;
+    //if (input = "") return;
     if (!FindWindowW(target_window_class, NULL)) {
         std::cout << "Window not found!" << std::endl;
         return;
